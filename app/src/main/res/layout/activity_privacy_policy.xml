@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".PrivacyPolicy">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:maxLines="1"
+                android:gravity="center"
+                android:text="Privacy Policy"
+                android:textColor="#090000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Types of data we collect"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We may collect personal information from you, such as your name, email address, location, and other details you provide when you create an account or use our app. We may also collect data on your preferences, interests, and behaviors as you use our app."
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Use of your personal data"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We use the information we collect to improve our app and provide you with a better user experience. We may also use your information to personalize your experience, to send you marketing communications, and to communicate with you about your account."
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Disclosure of your personal data"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We do not sell or rent your personal information to third parties. However, we may share your information with third-party service providers who help us provide our services, such as payment processors or analytics providers."
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25sp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

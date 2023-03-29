@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyingAccount">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/bgg"
+        android:layout_height="wrap_content">
+
+
+
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="We are verifying your account"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0D0808"
+            android:textSize="15dp"
+            android:text="We take our app security very seriously, so you can enjoy... in a safe environment" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Thank your for your patience!"
+            android:textColor="#FCFBFB"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#282626"
+            android:textSize="15dp"
+            android:text="We will notify you via email when your account has been verified, please note the process can take up to 24h." />
+
+    </LinearLayout>
+
+    </LinearLayout>

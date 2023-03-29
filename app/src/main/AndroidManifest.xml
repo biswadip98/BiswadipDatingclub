@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DatingClub"
+        tools:targetApi="31">
+        <activity
+            android:name=".TermsAndCondition"
+            android:exported="false" />
+        <activity
+            android:name=".Report"
+            android:exported="false" />
+        <activity
+            android:name=".SafetyTips"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityGuidelines"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSettings"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".MatchProfile"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationPanel"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".SelectedHobbies"
+            android:exported="false" />
+        <activity
+            android:name=".Hobbies"
+            android:exported="false" />
+        <activity
+            android:name=".CompleteProfileBIOandInterest"
+            android:exported="false" />
+        <activity
+            android:name=".AboutMe"
+            android:exported="false" />
+        <activity
+            android:name=".BioAndInterest"
+            android:exported="false" />
+        <activity
+            android:name=".LookingFor"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileVerificationProcess"
+            android:exported="false" />
+        <activity
+            android:name=".VerifySuccess"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyingAccount"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyTwo"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyOne"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyYourAccount"
+            android:exported="false" />
+        <activity
+            android:name=".AddPhotos"
+            android:exported="false" />
+        <activity
+            android:name=".PleaseSelectGender"
+            android:exported="false" />
+        <activity
+            android:name=".CreateYourProfile"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeLogin"
+            android:exported="false" />
+        <activity
+            android:name=".OTP"
+            android:exported="false" />
+        <activity
+            android:name=".Mymobile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

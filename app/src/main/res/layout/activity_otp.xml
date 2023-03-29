@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OTP">
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="1dp"
+
+        android:layout_marginBottom="1dp"
+        android:id="@+id/createaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:text="My mobile" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/normaltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#676565"
+        android:textSize="20dp"
+        android:text="Type the verification code we’ve sent you "/>
+    <in.aabhasjindal.otptextview.OtpTextView
+        android:layout_gravity="center"
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#F5F2F2"
+        app:height="40dp"
+        app:otp_box_background="@color/otpbtn"
+        app:width="40dp"
+        app:bar_enabled="true"
+        app:bar_height="2dp"
+        app:length="4"
+        app:otp="7200"
+        app:otp_text_size="24dp"/>
+
+    <TextView
+        android:id="@+id/sendcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:text="Resend verification code "
+        android:textColor="#676565"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Continue"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:theme="@style/Theme.Button"
+        android:background="@drawable/stylishloginbtn"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+
+
+</LinearLayout>

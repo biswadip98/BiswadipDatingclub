@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountSettings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Activity"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change your password"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscription plan"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blocked list"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggestions"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account settings"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pause my account"
+        android:layout_marginStart="5dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete my account"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message notifications"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Match notifications"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other notifications"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Community"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Community guidelines"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safety tips"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help &amp; Support"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQ"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resources"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support centre"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="35dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy policy"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms and Conditions"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cookie policy"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditYourProfile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="150dp"
+                    android:layout_height="203.23dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/editprofilephoto" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButto2"
+                    android:layout_width="150dp"
+                    android:layout_height="203.23dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/add" />
+                <ImageButton
+                    android:id="@+id/imageButto3"
+                    android:layout_width="150dp"
+                    android:layout_height="203.23dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/add" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="150dp"
+                    android:layout_height="203.23dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/add" />
+
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="150dp"
+                    android:layout_height="203.23dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/add"/>
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="150dp"
+                    android:layout_height="203.23dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@drawable/add"/>
+
+            </LinearLayout>
+            <TextView
+
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="40dp"
+                android:id="@+id/onceselected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8B8787"
+                android:textSize="15dp"
+                android:text="Hold &amp; Drag to adjust the order" />
+
+            <TextView
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="  Add bio" />
+            <EditText
+                android:id="@+id/searchBox"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="start"
+                android:background="@drawable/textinputborder"
+                android:layout_marginStart="20dp"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp">
+            </EditText>
+
+            <TextView
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/yourinterest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:text="  Your Interests" />
+
+            <TextView
+
+                android:layout_marginTop="5dp"
+                android:id="@+id/multipleselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8B8787"
+                android:textSize="15dp"
+                android:layout_marginStart="20dp"
+                android:text=" You can select multiple" />
+
+            <TextView
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/relationship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text=" Relationship goal" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/Select"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                <AutoCompleteTextView
+                    android:id="@+id/selectrelationship"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+
+                android:layout_marginTop="5dp"
+                android:id="@+id/choseone"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8B8787"
+                android:textSize="15dp"
+                android:text="Choose one" />
+
+
+            <TextView
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/sexualidentity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text=" Sexual identity preference" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/Select"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                <AutoCompleteTextView
+                    android:id="@+id/selectsexualidentity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+
+                android:layout_marginTop="5dp"
+                android:id="@+id/multiplechoice"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8B8787"
+                android:textSize="15dp"
+                android:text="Multiple choice" />
+
+            <TextView
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/tvgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Gender preference" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="@string/Select"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                <AutoCompleteTextView
+                    android:id="@+id/selectgender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+
+                android:layout_marginTop="5dp"
+                android:id="@+id/choiceOne"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8B8787"
+                android:textSize="15dp"
+                android:text="Choose one" />
+
+
+            <TextView
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Age" />
+
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/range_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:valueFrom="0.0"
+                android:valueTo="100.0" />
+            <!--            android:contentDescription="@string/slider_desc"-->
+            <!--            app:values="@array/initial_slider_values"-->
+
+            <TextView
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:text="Distance" />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/range_slider2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:valueFrom="0.0"
+                android:valueTo="100.0" />
+            <!--            android:contentDescription="@string/slider_desc"-->
+            <!--            app:values="@array/initial_slider_values"-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

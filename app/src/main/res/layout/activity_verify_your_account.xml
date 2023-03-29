@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyYourAccount">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/verifyccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="1dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Verify your account"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B8787"
+            android:textSize="15dp"
+            android:text="Verification is necessary to use the app, for creating a safe environment our users." />
+
+
+
+
+        <TextView
+
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B8787"
+            android:textSize="15dp"
+            android:text="Verify your identity using your government issued ID for the highest security." />
+
+        <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8B8787"
+        android:textSize="15dp"
+        android:text=" We don’t store your ID information." />
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ID VERIFICATION"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:theme="@style/Theme.Buttonverify"
+            android:background="@drawable/stylishloginbtn"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text=" ----------  or continue with  ----------" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B8787"
+            android:textSize="15dp"
+            android:text="@string/verify_your_account_by_taking_a_one_time_selfie_that_won_t_be_visible_on_your_profile"/>
+
+        <Button
+            android:id="@+id/verifybtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/next"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:theme="@style/Theme.Button"
+            android:background="@drawable/stylishloginbtn"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B8787"
+            android:textSize="15dp"
+            android:text="Verify your account by taking a one-time selfie that won’t be visible on your profile. "
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#725AC1"
+            android:textSize="18dp"
+            android:text="Contact Tech support" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PleaseSelectGender">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="1dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Please Select Your:"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text=" Gender" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/Select"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/selectgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+
+
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+
+            android:id="@+id/onceselected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B8787"
+            android:textSize="15dp"
+            android:text=" Once selected you cannot change the mode" />
+
+
+        <TextView
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/sexualidentity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text=" Sexual identity" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/Select"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/selectsexualidentity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Next"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:theme="@style/Theme.Button"
+            android:background="@drawable/stylishloginbtn"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>

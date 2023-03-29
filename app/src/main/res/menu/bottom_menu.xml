@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/community"
+        android:icon="@drawable/user"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/chat"
+        android:title="Chats" />
+
+    <item
+        android:id="@+id/freeexam"
+        android:icon="@drawable/notification"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/notifications"
+        android:icon="@drawable/hhome"
+        android:title="Home" />
+</menu>

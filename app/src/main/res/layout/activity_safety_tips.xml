@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".SafetyTips">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:maxLines="1"
+                android:gravity="center"
+                android:text="Safety tips"
+                android:textColor="#090000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Be cautious with personal information:"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text=" Avoid sharing personal information like your full name, address, phone number, or other identifying details until you feel comfortable and have built trust with the other person.  "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Meet in public places:"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="  When meeting someone for the first time, choose a public location that is well-lit and has other people around. This can help ensure your safety and make you feel more comfortable.  "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Trust your instincts:"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="   If you feel uncomfortable or unsafe with someone, trust your gut and end the conversation or meeting. Your safety should always come first. "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Use video chat before meeting in person: "
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Consider using video chat to talk with someone before meeting in person. This can help you get a better sense of who they are and build trust before meeting face-to-face. "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Don't feel pressured:"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text=" You should never feel pressured to do anything you're not comfortable with. If someone is pressuring you to do something you don't want to do, end the conversation or meeting. "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 6. Report any suspicious behavior:"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text=" 6. Report any suspicious behavior: If you encounter any suspicious behavior on the app, report it to the app's support team. This can help keep the community safe and prevent others from being victimized. "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 7. Be mindful of your surroundings:"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="  Always be aware of your surroundings and take steps to ensure your safety, such as carrying a phone with you and letting a friend know where you're going and when you'll be back. "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedHobbies">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="1dp"
+            android:maxLines="1"
+            android:text="Hobbies/Interests"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+
+            android:layout_marginTop="5dp"
+            android:id="@+id/hobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B8787"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15dp"
+            android:text=" Share your interests with the community. Tell us about the things that bring you joy and make you unique. (You can select multiple: Up-to 7)" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/itembutton"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:theme="@style/Theme.Buttonitem" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="150dp"
+            android:id="@+id/onceselected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B8787"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15dp"
+            android:text="This section will be shown on your profile. You can change it anytime." />
+
+    </LinearLayout>
+    </LinearLayout>

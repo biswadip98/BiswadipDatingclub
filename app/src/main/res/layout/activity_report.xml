@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".Report">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="1dp"
+                android:maxLines="1"
+                android:gravity="center"
+                android:text="Report"
+                android:textColor="#090000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="1dp"
+                android:maxLines="1"
+                android:gravity="center"
+                android:text="Select a problem to report"
+                android:textColor="#090000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:text=" Avoid sharing personal information like your full name, address, phone number, or other identifying details until you feel comfortable and have built trust with the other person.  "
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nudity or sexual activity"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hate speech or Symbols"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scam or fraud"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Violence or dangerous influence"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sale of Illegal or regulated products "
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bullying or Harassment"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pretending to be someone else"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suicide or Self-injury"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spam or Bot"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My problem isn’t listed"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textAppearance= "@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

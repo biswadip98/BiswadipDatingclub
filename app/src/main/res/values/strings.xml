@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dating Club</string>
+
+    <string name="Select">Please Select...</string>
+    <string name="next">Next</string>
+    <string name="verify_your_account_by_taking_a_one_time_selfie_that_won_t_be_visible_on_your_profile">Verify your account by taking a one-time selfie that won’t be visible on your profile.</string>
+    <string name="slider_desc">contentdescription</string>
+
+
+</resources>
